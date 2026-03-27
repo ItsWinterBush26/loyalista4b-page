@@ -101,3 +101,29 @@ footer {
     padding: 8px;
     border-radius: 20px;
 }
+.arrow {
+    text-decoration: none;
+    margin-right: 15px;
+    text-align: right;
+    position: sticky;
+    bottom: 30px;
+}
+.arrow img {
+    height: 18px;
+    width: 18px;
+}
+
+.arrow a {
+            text-decoration: none;
+            color: var(--primary);
+            font-weight: bold;
+            transition: 0.3s;
+        }
+
+.arrow a:hover {
+            color: var(--accent);
+        }
+        
+.nav1 {
+    text-align: right;
+}
