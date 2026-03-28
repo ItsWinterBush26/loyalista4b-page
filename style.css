@@ -125,5 +125,5 @@ footer {
         }
         
 .nav1 {
-    border-top: 4px var(--accent);
+    border-top: 4px solid #e74c3c;
 }
