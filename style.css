@@ -64,12 +64,13 @@ footer {
             flex-direction: column;            
             justify-content: center;
             max-width: 300px;
-            max-height: auto;
-            align-items: flex-start;
+            margin-left: 2rem;
+            margin-right: 2rem;
+            margin-top: 2rem;
+            margin-bottom: 2rem;
         }
                 
 .container {
-            margin: 2rem auto;
             padding: 10px;
             display: flex;
             flex-wrap: wrap;            
