@@ -10,9 +10,8 @@ body {
             background-color: #f4f4f4;
             color: var(--primary);
             line-height: 1.6;
-            max-width: 1000px;
         }
-
+        
 header {
             background: var(--primary);
             color: white;
@@ -62,13 +61,18 @@ footer {
             padding: 1rem;
             text-align: center;
             display: flex;
-            flex-direction: column;
-            justify-content: space-between;
+            flex-direction: column;            
+            justify-content: center;
+            max-width: 300px;
+            max-height: auto;
         }
                 
 .container {
             margin: 2rem auto;
             padding: 10px;
+            display: flex;
+            flex-wrap: wrap;            
+            justify-content: center;
         }
 .paragraph {
             text-align: center;
