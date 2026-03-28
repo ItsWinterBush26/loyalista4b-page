@@ -65,6 +65,7 @@ footer {
             justify-content: center;
             max-width: 300px;
             max-height: auto;
+            align-items: flex-start;
         }
                 
 .container {
