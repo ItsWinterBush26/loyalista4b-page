@@ -55,7 +55,6 @@ footer {
         }
 .section {
             background: white;
-            margin-bottom: 1rem;
             border-radius: 8px;
             box-shadow: 0 4px 6px rgba(0,0,0,0.05);
             padding: 1rem;
@@ -63,11 +62,8 @@ footer {
             display: flex;
             flex-direction: column;            
             justify-content: center;
-            max-width: 200px;
-            margin-left: 1rem;
-            margin-right: 1rem;
-            margin-top: 1rem;
-            margin-bottom: 1rem;
+            max-width: 300px;
+            margin: 1rem;
         }
                 
 .container {
@@ -134,14 +130,10 @@ footer {
 .nav1 {
     border-top: 4px solid #2c3e50;
 }
-.row {
-  display: flex;
-  flex-wrap: wrap;
-  padding: 0 4px;
-}
 
 div.gallery {
   border: 2px solid #ccc;
+  margin-top: 1rem;          
 }
 
 div.gallery:hover {
