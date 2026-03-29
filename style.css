@@ -58,34 +58,37 @@ footer {
             box-shadow: 0 4px 6px rgba(0,0,0,0.05);
             padding: 1rem;
             text-align: center;
-            flex-direction: column;          
+            flex-direction: column;       
             justify-content: center;
             max-width: 300px;
             margin: 1rem;
-            flex: 100%;
         }
                 
 .container {
             padding: 10px;
-            flex: 50%;
+            display: flex;
             flex-wrap: wrap;            
             justify-content: center;
             align-items: flex-start;
         }
+
 .paragraph {
             text-align: center;
             padding: 1rem;
         }
+
 .memes {
     text-align: center;
     background: var(--primary);
     color: white;
     padding: 1rem;
 }
+
 .link img {
     height: 15px;
     width: 15px;
 }
+
 .link {
     background: white;
     margin-bottom: 1rem;
